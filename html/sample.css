@@ -1,0 +1,16 @@
+.box{
+    background-color: black;
+    color: yellow;
+    padding: 20px;
+   text-align: center;
+}
+
+.box2{
+    border-width: 5px;
+    background-color: grey;
+    border-color: black;
+    border-style: solid;
+    padding: 20px;
+    margin-top: 4%;
+    
+}
