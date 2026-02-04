@@ -1,0 +1,122 @@
+.parent{
+    background-color:black;
+}
+
+.nav{
+    background-color:green;
+    color: black;
+    border-radius: 10px;
+}
+.box1{
+    border-radius: 3px;
+   border: 2px solid white;
+   height: 220px;
+    width: 180px;
+    display: inline-block;
+    text-align: center;
+    margin-top: 100px;
+     border-radius: 5px;
+    padding-top: 20px;
+    
+}
+
+.box2{
+    border-radius: 3px;
+     border: 2px solid white;
+     height: 220px;
+    width: 180px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 5px;
+    padding-top: 20px;
+    
+    
+}
+
+.box3{
+    border-radius: 3px;
+     border: 2px solid white;
+     height: 220px;
+    width: 180px;
+    display: inline-block;
+    text-align: center;
+     border-radius: 5px;
+      padding-top: 20px;
+      
+}
+
+.box4{
+    border-radius: 3px;
+    border: 2px solid white;
+    height: 220px;
+    width: 180px;
+    display: inline-block;
+    text-align: center;
+     border-radius: 5px;
+      padding-top: 20px;
+
+      
+}
+
+.box5{
+    border-radius: 3px;
+    border: 2px solid white;
+    height: 220px;
+    width: 180px;
+    display: inline-block;
+    text-align: center;
+     border-radius: 5px;
+      padding-top: 20px;
+
+      
+}
+
+.box6{
+    border-radius: 3px;
+    border: 2px solid white;
+    height: 220px;
+    width: 180px;
+    display: inline-block;
+    text-align: center;
+     border-radius: 5px;
+      padding-top: 20px;
+
+      
+}
+
+
+/*.child{
+    border-color: white;
+    width: 220px;
+}*/
+
+button{
+     background-color: green;
+     color:black;
+     border-radius: 5px;
+}
+
+button:hover{
+    background-color: white;
+    color:black;
+    cursor: pointer;
+}
+#pricerange{
+    color: green;
+    width: 90%;
+    padding-top: 80px;
+}
+
+.cart{
+    padding-top:5px;
+   
+}
+.cart{
+    padding-bottom: 40px;
+}
+
+.bold{
+    padding-top: 10px;
+    
+}
+
