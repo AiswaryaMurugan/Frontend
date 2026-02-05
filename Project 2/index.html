@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booksky</title>
+    <link rel="icon" href="https://images.rawpixel.com/image_png_social_square/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTExL3JtNjAzLWVsZW1lbnQtMTg2LnBuZw.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+    <nav class="nav">
+        <h1>Booksky</h1>
+    </nav>
+    <div class="container">
+    <div class="one">
+        <h3 class="bold">Harry Potter Series</h3>
+        <b>J.K.Rowling</b>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel quam odio provident temporibus? Neque dignissimos autem deserunt consequatur quo odit doloremque molestias. Ad reprehenderit quam harum quos cumque! Cupiditate, repellat?</p>
+        <button class="btn" onclick="deletebook(event)">Delete</button>   
+    </div>
+    
+
+     <button class="two" id="idname">+</button>
+    
+    
+   </div>
+   <div class="popup-overlay">
+
+   </div>
+   <div class="popup">
+    <h1 style="color: black;" style="background-color:  rgb(236, 49, 49);">Add Book</h1>
+    <form>
+    <input type="text" placeholder="Title" id="booktitle"><br>
+    <input type="text" placeholder="Author" id="bookauthor"><br>
+    <textarea placeholder="Book Description" id="textarea"></textarea><br>
+    <button id="add-btn">ADD</button>
+    <button id="cancel-btn">CANCEL</button>
+    </form>
+   </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
